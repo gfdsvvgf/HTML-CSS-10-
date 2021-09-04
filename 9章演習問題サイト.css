@@ -4,6 +4,11 @@
   background-color: #ff9a4b;
 }
 
+.flex {
+  display: flex;
+}
+
+
 .box1 {
   width: 300px;
   background-color: #EEEEEE;
@@ -70,5 +75,15 @@ h3 {
   width: 100%;
   height: 50px;
   background-color: #aaaaaa;
-  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-width:768px) {
+.flex {
+  
+}
+
+
+
 }
