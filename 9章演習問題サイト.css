@@ -45,7 +45,7 @@ h3 {
 
 
 .img-box {
-  background-image: url(../HTML＆CSSを学ぼう「10章：課題問題『提出課題』」/img/flow01.png);
+  background-image: url("img/flow01.png");
   margin-left: 10px;
   width: 280px;
   height: 150px;
@@ -54,7 +54,7 @@ h3 {
 }
 
 .img-box-2 {
-  background-image: url(../HTML＆CSSを学ぼう「10章：課題問題『提出課題』」/img/flow02.png);
+  background-image: url("img/flow02.png");
   margin-left: 10px;
   width: 280px;
   height: 150px;
@@ -63,7 +63,7 @@ h3 {
 }
 
 .img-box-3 {
-  background-image: url(../HTML＆CSSを学ぼう「10章：課題問題『提出課題』」/img/flow03.png);
+  background-image: url("img/flow03.png");
   margin-left: 10px;
   width: 280px;
   height: 150px;
