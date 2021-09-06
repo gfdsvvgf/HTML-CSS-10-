@@ -16,7 +16,7 @@
   background-color: #EEEEEE;
   margin-right: 30px;
   position: relative;
-  padding-top: 10px;
+  padding: 10px;
 }
 
 .box-text {
@@ -46,29 +46,29 @@ h3 {
 
 .img-box {
   background-image: url("img/flow01.png");
-  margin-left: 10px;
-  width: 280px;
   height: 150px;
   background-size: cover;
   background-position: bottom;
+  
+  margin-bottom: 15px;
 }
 
 .img-box-2 {
   background-image: url("img/flow02.png");
-  margin-left: 10px;
-  width: 280px;
   height: 150px;
   background-size: cover;
   background-position: bottom;
+  
+  margin-bottom: 15px;
 }
 
 .img-box-3 {
   background-image: url("img/flow03.png");
-  margin-left: 10px;
-  width: 280px;
   height: 150px;
   background-size: cover;
   background-position: bottom;
+  
+  margin-bottom: 15px;
 }
 
 
@@ -83,7 +83,22 @@ h3 {
 @media screen and (max-width:768px) {
 .flex {
   display: block;
+  width: 100%;
 }
+.header {
+  width: 100%;
+}
+
+.box1 {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.box1:last-child {
+  margin-bottom: 0;
+}
+
 
 
 
